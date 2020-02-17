@@ -1,4 +1,4 @@
-DerpFest
+DerpFest TikkiX2 Unofficial Build
 ==============
 
 Getting Started
@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the AOSiP trees, use a command like this:
 
 ```bash
-repo init -u git://github.com/DerpLab/platform_manifest.git -b ten
+repo init -u git://github.com/TikkiX2/platform_manifest.git -b ten
 ```
 Then to sync up:
 ```bash
@@ -88,7 +88,7 @@ Also to make this even easier, you can use a universal gerrit script provided by
 
 ## Maintaining Authorship ##
 Please make sure if you submit a patch/fix from another ROM that you maintain authorship.
-This is very important to not only us but to the entire open source community. It's what keeps it going and encourages more developers to 
+This is very important to not only us but to the entire open source community. It's what keeps it going and encourages more developers to
 contribute their work.
 
 If you manually cherry pick a patch/fix please add the original author prior to pushing to our gerrit.
@@ -105,4 +105,3 @@ So it should look like this once you get all author's information:
 ```bash
 git commit --amend --author "Shreesha <shreeshu10@gmail.com>"
 ```
-
