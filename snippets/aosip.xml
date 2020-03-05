@@ -150,4 +150,7 @@
   <project path="vendor/google/customization" name="PixelExperience/vendor_google_customization" remote="github" revision="ten" />
   <project path="vendor/pixelstyle" name="platform_vendor_pixelstyle" remote="derp" />
 
+  <!-- Device -->
+  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="tikki" revision="AOSIP-10" />
+
 </manifest>
