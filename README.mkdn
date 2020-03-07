@@ -23,9 +23,9 @@ Building the source
 The source at DerpFest is well configured for building.
 
 ```bash
-source build/envsetup.sh
+. build/envsetup.sh
 lunch derp_device-userdebug
-time mka kronic
+mka kronic
 ```
 
 ## Help from other devices ##
