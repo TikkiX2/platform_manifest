@@ -143,11 +143,13 @@
   <project path="packages/apps/OpenDelta" name="platform_packages_apps_OpenDelta" remote="tikki" />
   <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="derp" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-6189010" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6189010" remote="github" revision="10.0" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="github" revision="master" clone-depth="1" />
   <project path="system/apex" name="PixelExperience/system_apex" remote="github" revision="ten" />
   <project path="system/keymaster" name="platform_system_keymaster" remote="derp" />
   <project path="system/netd" name="platform_system_netd" remote="derp" />
   <project path="system/qcom" name="ArrowOS/android_system_qcom" remote="github" revision="arrow-10.0" />
+  <project path="scripts" name="scripts" remote="derp" revision="master" />
 
   <!-- PixelExperience GApps and Mods -->
   <project path="packages/apps/PixelLiveWallpaper" name="PixelExperience/packages_apps_PixelLiveWallpaper" remote="gitlab" revision="ten" />
