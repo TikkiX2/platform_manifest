@@ -10,11 +10,11 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the DerpFest trees, use a command like this:
 
 ```bash
-repo init -u git://github.com/TikkiX2/platform_manifest.git -b ten
+repo init -u git://github.com/TikkiX2/platform_manifest.git -b ten-staging
 ```
 Then to sync up:
 ```bash
-repo sync --force-sync --no-tags --no-clone-bundle
+repo sync --force-sync --no-tags --no-clone-bundle -v -j8
 ```
 
 Building the source
@@ -69,3 +69,8 @@ Here's my thanks to people who made this possible:
 * NitrogenOS
 * AICP
 * DirtyUnicorns
+* ExtendedUI
+* AncientOS
+* RevengeOS
+* MSM Xtended
+* Descendant

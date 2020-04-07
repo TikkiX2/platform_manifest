@@ -33,7 +33,7 @@
   <project path="bionic" name="platform_bionic" remote="derp" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="derp" />
   <project path="development" name="platform_development" remote="derp" />
-  <project path="manifest" name="DerpLab/platform_manifest" remote="github" revision="ten" />
+  <project path="manifest" name="TikkiX2/platform_manifest" remote="github" revision="ten-staging" />
 
   <!-- Build -->
   <project path="build/blueprint" name="platform_build_blueprint" remote="derp" />
@@ -74,7 +74,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="derp" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="tikki" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="tikki" revision="ten-staging" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="aosip" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="derp" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip" />
@@ -105,7 +105,7 @@
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="derp" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="aosip" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="derp" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="tikki" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="derp" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="derp" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="tikki" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="derp" />
@@ -130,14 +130,14 @@
   <project path="system/vold" name="platform_system_vold" remote="derp" />
 
   <!-- Vendor -->
-  <project path="vendor/aosip" name="platform_vendor_aosip" remote="tikki" />
+  <project path="vendor/aosip" name="platform_vendor_aosip" remote="tikki" revision="ten-staging" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="derp" />
-  <project path="vendor/overlay" name="platform_vendor_overlay" remote="derp" />
+  <project path="vendor/overlay" name="platform_vendor_overlay" remote="tikki" />
   <project path="vendor/prebuilts" name="platform_vendor_prebuilts" remote="derp" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
 
   <!-- DerpFest specific stuf -->
-  <project path="packages/apps/DerpQuest" name="platform_packages_apps_DerpQuest" remote="tikki" />
+  <project path="packages/apps/DerpQuest" name="platform_packages_apps_DerpQuest" remote="tikki" revision="ten-staging" />
   <project path="packages/apps/OmniRecord" name="platform_packages_apps_OmniRecord" remote="derp" />
   <project path="packages/apps/OmniJaws" name="platform_packages_services_OmniJaws" remote="derp" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="tikki" />
