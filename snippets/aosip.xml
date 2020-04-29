@@ -33,7 +33,7 @@
   <project path="bionic" name="platform_bionic" remote="derp" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="derp" />
   <project path="development" name="platform_development" remote="derp" />
-  <project path="manifest" name="DerpLab/platform_manifest" remote="github" revision="ten" />
+  <project path="manifest" name="TikkiX2/platform_manifest" remote="github" revision="ten" />
 
   <!-- Build -->
   <project path="build/blueprint" name="platform_build_blueprint" remote="derp" />
